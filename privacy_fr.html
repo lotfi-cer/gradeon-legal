@@ -54,7 +54,7 @@ footer { margin-top: 3.5rem; padding-top: 1.25rem; border-top: 1px solid var(--b
 </header>
 <nav class="langs"><a href="privacy_fr.html" aria-current="page">Français</a><a href="privacy_en.html">English</a></nav>
 <h1>Politique de confidentialité</h1>
-<p><strong>Dernière mise à jour : 19 août 2026</strong></p>
+<p><strong>Dernière mise à jour : 20 août 2026</strong></p>
 <h2>En résumé</h2>
 <p>Gradeon est une application de <strong>gestion de collection</strong> de cartes à collectionner. C'est un outil de suivi : tu y tiens l'inventaire de tes cartes, à peu près comme tu tiendrais un tableur.</p>
 <p>Cela vaut aussi pour les échanges. Gradeon te permet de <strong>comparer ta collection à celle d'un autre utilisateur</strong> et de <strong>mettre à jour ton inventaire après un échange que vous avez fait vous-mêmes</strong>. L'application ne met pas les utilisateurs en contact, n'organise aucun échange et ne permet pas d'en réaliser un : elle en enregistre le résultat, comme une ligne qu'on corrige dans un tableur.</p>
@@ -90,7 +90,7 @@ footer { margin-top: 3.5rem; padding-top: 1.25rem; border-top: 1px solid var(--b
 <p><strong>Fonctionnement normal.</strong> Quand tu scannes une carte, la photo est analysée <strong>sur ton téléphone</strong> : la reconnaissance de texte est assurée par le composant intégré au système d'exploitation (Apple Vision sur iOS). Seul le <strong>texte lu</strong> — nom de la carte, numéro, code de série — est ensuite envoyé aux catalogues de cartes pour identifier l'exemplaire. <strong>La photo ne quitte pas ton appareil.</strong> Aucun service d'intelligence artificielle externe ne la reçoit.</p>
 <p><strong>Contribution à l'amélioration de la reconnaissance.</strong> En créant un compte Gradeon, tu contribues à l'amélioration de la reconnaissance de cartes et de la mesure de centrage — c'est une composante normale de l'application, incluse dans l'usage que tu acceptes à l'inscription, et non un réglage séparé à activer :</p>
 <ul>
-<li>lors d'un scan, une <strong>image réduite</strong> de la carte (environ 400 pixels de large) est envoyée et conservée, accompagnée du texte lu et du résultat de la reconnaissance ;</li>
+<li>lors d'un scan, <strong>deux images</strong> sont envoyées et conservées, accompagnées du texte lu et du résultat de la reconnaissance : une miniature de la photo prise (environ 400 pixels de large), et la carte seule, redressée et recadrée à partir de cette photo (environ 733 × 1024 pixels) — cette seconde image ne montre que la carte, jamais ce qui l'entoure sur la photo d'origine ;</li>
 <li>lors d'une mesure de centrage, <strong>deux images réduites</strong> de la carte (environ 300 et 900 pixels de large) sont envoyées et conservées, accompagnées des repères de bordure que tu as placés.</li>
 </ul>
 <p>Ces images servent exclusivement à mesurer et corriger les erreurs de reconnaissance et de centrage. Elles peuvent être consultées par l'administrateur de l'application dans ce seul but. Elles ne sont jamais publiées, ni transmises à un tiers, ni utilisées pour te profiler. Les images déjà envoyées sont supprimées avec ton compte, et tu peux demander leur suppression à tout moment en nous écrivant.</p>
@@ -133,6 +133,7 @@ footer { margin-top: 3.5rem; padding-top: 1.25rem; border-top: 1px solid var(--b
 <li><strong>Google</strong> et <strong>Apple</strong> — uniquement si tu choisis de te connecter par leur intermédiaire. Ils t'authentifient et nous transmettent ton adresse e-mail.</li>
 <li><strong>pokemontcg.io</strong> — catalogue de cartes Pokémon et données de prix. Reçoit le texte lu sur la carte et les identifiants de cartes recherchés. Ne reçoit ni ton identité ni tes photos.</li>
 <li><strong>TCGdex</strong> — catalogue complémentaire, utilisé pour résoudre les noms de cartes en japonais, coréen et chinois. Reçoit les mêmes éléments et rien de plus.</li>
+<li><strong>DotGG</strong> — catalogue de cartes One Piece Card Game et données de prix (Cardmarket et TCGplayer). Reçoit l'identifiant de la carte dont le prix est demandé. Ne reçoit ni ton identité, ni tes photos, ni le contenu de ta collection. Les visuels des cartes One Piece sont également servis par ce prestataire.</li>
 <li><strong>frankfurter.app</strong> — taux de change publiés par la Banque centrale européenne, pour convertir les prix dans ta devise. Ne reçoit aucune donnée personnelle.</li>
 <li><strong>Sentry</strong> — rapports de plantage. Reçoit uniquement ce qui est décrit ci-dessous, et rien qui permette de t'identifier. Région d'hébergement : Union européenne (Francfort, Allemagne).</li>
 <li><strong>PostHog</strong> — mesure d'usage. Reçoit uniquement les gestes décrits à la section « Mesure d'usage », sans ton identité ni le contenu de ta collection. Région d'hébergement : Union européenne (Francfort, Allemagne).</li>
