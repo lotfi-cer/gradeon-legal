@@ -54,7 +54,7 @@ footer { margin-top: 3.5rem; padding-top: 1.25rem; border-top: 1px solid var(--b
 </header>
 <nav class="langs"><a href="privacy_fr.html" aria-current="page">Français</a><a href="privacy_en.html">English</a></nav>
 <h1>Politique de confidentialité</h1>
-<p><strong>Dernière mise à jour : 21 octobre 2026</strong></p>
+<p><strong>Dernière mise à jour : 25 octobre 2026</strong></p>
 <h2>En résumé</h2>
 <p>Gradeon est une application de <strong>gestion de collection</strong> de cartes à collectionner. C'est un outil de suivi : tu y tiens l'inventaire de tes cartes, à peu près comme tu tiendrais un tableur.</p>
 <p>Cela vaut aussi pour les échanges. Gradeon te permet de <strong>comparer ta collection à celle d'un autre utilisateur</strong> et de <strong>mettre à jour ton inventaire après un échange que vous avez fait vous-mêmes</strong>. L'application ne met pas les utilisateurs en contact, n'organise aucun échange et ne permet pas d'en réaliser un : elle en enregistre le résultat, comme une ligne qu'on corrige dans un tableur.</p>
@@ -62,7 +62,7 @@ footer { margin-top: 3.5rem; padding-top: 1.25rem; border-top: 1px solid var(--b
 <ul>
 <li>Gradeon ne contient <strong>aucune publicité et aucun traceur publicitaire</strong>. L'application mesure en revanche la façon dont elle est utilisée — quels écrans sont ouverts, quels gestes aboutissent — de façon <strong>anonyme et sans lien avec ton compte</strong> : voir « Mesure d'usage ».</li>
 <li>Tes données ne sont <strong>ni vendues ni louées</strong> à qui que ce soit.</li>
-<li><strong>Les photos de tes cartes sont lues sur ton téléphone.</strong> Le texte imprimé sur la carte est déchiffré localement — par Apple Vision sur iPhone, par Google ML Kit sur Android ; la photo elle-même ne part sur Internet que dans le cadre de la contribution à l'amélioration de la reconnaissance, décrite dans les présentes conditions (voir « Photos de cartes »).</li>
+<li><strong>Les photos de tes cartes sont lues sur ton téléphone.</strong> Le texte imprimé sur la carte est déchiffré localement — par Apple Vision sur iPhone, par Google ML Kit sur Android ; la photo elle-même ne part sur Internet que pour ton historique de centrage (« Mes analyses ») et dans le cadre de la contribution à l'amélioration de la reconnaissance, décrits dans les présentes conditions (voir « Photos de cartes »).</li>
 <li>Tu peux <strong>supprimer ton compte et toutes tes données</strong> depuis l'application, sans nous écrire — ou, si tu n'as plus l'application, en nous écrivant (voir « Tes droits »).</li>
 </ul>
 <h2>Qui est responsable du traitement</h2>
@@ -87,7 +87,8 @@ footer { margin-top: 3.5rem; padding-top: 1.25rem; border-top: 1px solid var(--b
 <p><strong>Ce réglage n'est pas modifiable depuis l'application.</strong> Si tu ne souhaites pas que ta collection soit visible par d'autres utilisateurs, tu peux soit supprimer ton compte (voir « Tes droits »), soit nous écrire à <strong>contact@gradeonapp.com</strong> pour exercer ton droit d'opposition — nous désactivons alors le partage de ton côté.</p>
 <h3>Photos de cartes</h3>
 <p>C'est le point le plus important de cette politique, et il mérite d'être précis.</p>
-<p><strong>Fonctionnement normal.</strong> Quand tu scannes une carte, la photo est analysée <strong>sur ton téléphone</strong> : la reconnaissance de texte est assurée par un composant qui fonctionne sur l'appareil — <strong>Apple Vision</strong>, intégré au système, sur iPhone ; <strong>Google ML Kit</strong> sur Android, dont le modèle de lecture est embarqué dans l'application et fonctionne sans connexion. Seul le <strong>texte lu</strong> — nom de la carte, numéro, code de série — est ensuite envoyé aux catalogues de cartes pour identifier l'exemplaire. <strong>La photo ne quitte pas ton appareil.</strong> Aucun service d'intelligence artificielle externe ne la reçoit.</p>
+<p><strong>Fonctionnement normal.</strong> Quand tu scannes une carte, la photo est analysée <strong>sur ton téléphone</strong> : la reconnaissance de texte est assurée par un composant qui fonctionne sur l'appareil — <strong>Apple Vision</strong>, intégré au système, sur iPhone ; <strong>Google ML Kit</strong> sur Android, dont le modèle de lecture est embarqué dans l'application et fonctionne sans connexion. Seul le <strong>texte lu</strong> — nom de la carte, numéro, code de série — est ensuite envoyé aux catalogues de cartes pour identifier l'exemplaire. <strong>La photo ne quitte pas ton appareil</strong> pour être reconnue : aucun service d'intelligence artificielle externe ne la reçoit.</p>
+<p><strong>Mes analyses (historique de centrage).</strong> Chaque mesure de centrage que tu réalises est conservée dans ton historique, pour que tu puisses la revoir : une photo de la carte (environ 1 200 pixels de large, telle que redressée pour la mesure), une miniature, la position des repères de mesure et le résultat obtenu. La photo est rangée dans un espace privé, que toi seul peux lire ; elle n'est ni publiée, ni montrée à tes partenaires d'échange, ni transmise à un tiers. Tu peux supprimer une analyse et sa photo à tout moment depuis l'application, et elles sont supprimées avec ton compte.</p>
 <p><strong>Ce que Google ML Kit transmet à Google (Android uniquement).</strong> La bibliothèque ML Kit envoie à Google des données techniques sur son propre fonctionnement, que Google utilise pour le diagnostic et la mesure d'usage de cette bibliothèque. D'après la page que Google publie à ce sujet (« ML Kit Android SDKs — data disclosure »), il s'agit exactement de :</p>
 <ul>
 <li>informations sur l'appareil : fabricant, modèle, version et build du système, accélérateurs matériels disponibles ;</li>
@@ -137,7 +138,7 @@ footer { margin-top: 3.5rem; padding-top: 1.25rem; border-top: 1px solid var(--b
 <h2>Les prestataires et services tiers</h2>
 <p>Gradeon s'appuie sur les services suivants. Chacun ne reçoit que ce qui est indiqué.</p>
 <ul>
-<li><strong>Supabase</strong> — hébergement de la base de données et de l'authentification. Reçoit et conserve l'ensemble de tes données de compte, de collection, d'échange et les images de contribution. Région d'hébergement : Union européenne, Francfort (Allemagne).</li>
+<li><strong>Supabase</strong> — hébergement de la base de données et de l'authentification. Reçoit et conserve l'ensemble de tes données de compte, de collection, d'échange, tes analyses de centrage et leurs photos, et les images de contribution. Région d'hébergement : Union européenne, Francfort (Allemagne).</li>
 <li><strong>Google</strong> et <strong>Apple</strong> — uniquement si tu choisis de te connecter par leur intermédiaire. Ils t'authentifient et nous transmettent ton adresse e-mail.</li>
 <li><strong>Google (ML Kit)</strong> — sur Android seulement, lecture du texte des cartes sur le téléphone. Google reçoit les données techniques décrites en « Photos de cartes », sans la photo, sans le texte lu et sans ton identité.</li>
 <li><strong>pokemontcg.io</strong> — catalogue de cartes Pokémon et données de prix. Reçoit le texte lu sur la carte et les identifiants de cartes recherchés. Ne reçoit ni ton identité ni tes photos.</li>
@@ -149,13 +150,14 @@ footer { margin-top: 3.5rem; padding-top: 1.25rem; border-top: 1px solid var(--b
 </ul>
 <p><strong>À savoir sur les images de cartes.</strong> Les visuels des cartes affichés dans l'application sont chargés depuis les serveurs des catalogues ci-dessus. Comme pour toute page web, ces serveurs voient alors l'<strong>adresse IP</strong> de ta connexion. C'est une conséquence technique de l'affichage d'images distantes, non un choix de collecte de notre part.</p>
 <h2>Hébergement et transferts hors de l'Union européenne</h2>
-<p>Tes données sont hébergées chez Supabase, <strong>dans l'Union européenne</strong> — région de Francfort, en Allemagne. Ton compte, ta collection, tes échanges et les images de contribution ne sont pas transférés hors de l'Union européenne.</p>
+<p>Tes données sont hébergées chez Supabase, <strong>dans l'Union européenne</strong> — région de Francfort, en Allemagne. Ton compte, ta collection, tes échanges, tes analyses de centrage et les images de contribution ne sont pas transférés hors de l'Union européenne.</p>
 <p>Les rapports de plantage et la mesure d'usage sont eux aussi traités <strong>dans l'Union européenne</strong> : les projets Sentry et PostHog sont hébergés dans la région de Francfort.</p>
 <p>Les catalogues de cartes, les services d'authentification et, sur Android, Google ML Kit sont opérés depuis différents pays, dont les États-Unis. Les échanges avec eux ne portent pas sur ton identité mais sur des identifiants de cartes ou des données techniques — à l'exception de l'authentification Google ou Apple, si tu l'utilises, qui porte sur ton adresse e-mail.</p>
 <h2>Durée de conservation</h2>
 <ul>
 <li><strong>Données de compte, collection, listes de souhaits et échanges</strong> : conservées tant que ton compte existe.</li>
 <li><strong>Images et données de contribution</strong> : conservées tant que ton compte existe, ou jusqu'à ta demande de suppression.</li>
+<li><strong>Mes analyses (photos et mesures de centrage)</strong> : conservées tant que ton compte existe, ou jusqu'à ce que tu supprimes l'analyse depuis l'application.</li>
 <li><strong>Historique des échanges conclus</strong> : conservé tant que le compte existe, car il concerne deux personnes et constitue la trace d'une écriture irréversible sur les deux inventaires.</li>
 <li><strong>Rapports de plantage</strong> : conservés 90 jours par Sentry, puis supprimés automatiquement. Ils ne sont rattachés à aucun compte et ne sont donc pas concernés par la suppression de ton compte.</li>
 <li><strong>Données locales sur ton téléphone</strong> : jusqu'à la désinstallation de l'application.</li>
@@ -163,7 +165,7 @@ footer { margin-top: 3.5rem; padding-top: 1.25rem; border-top: 1px solid var(--b
 <p>Quand tu supprimes ton compte, l'ensemble de ces données est effacé — voir ci-dessous.</p>
 <h2>Tes droits</h2>
 <p>Conformément au Règlement général sur la protection des données, tu disposes d'un droit d'accès, de rectification, d'effacement, de limitation, d'opposition et de portabilité sur tes données. Tu peux les exercer en écrivant à <strong>contact@gradeonapp.com</strong>.</p>
-<p><strong>Suppression de ton compte, immédiate et sans nous écrire.</strong> Va dans <strong>Profil › Supprimer mon compte</strong>. La suppression est <strong>définitive et irréversible</strong>. Elle efface ton compte d'authentification, ton profil, ta collection, tes listes, tes listes de souhaits, tes échanges et les images de contribution que tu avais envoyées.</p>
+<p><strong>Suppression de ton compte, immédiate et sans nous écrire.</strong> Va dans <strong>Profil › Supprimer mon compte</strong>. La suppression est <strong>définitive et irréversible</strong>. Elle efface ton compte d'authentification, ton profil, ta collection, tes listes, tes listes de souhaits, tes échanges, tes analyses de centrage et leurs photos, et les images de contribution que tu avais envoyées.</p>
 <p><strong>Sans l'application.</strong> Si tu n'as plus l'application ou ne peux plus te connecter, écris à <strong>contact@gradeonapp.com</strong> depuis l'adresse e-mail liée à ton compte : c'est ce qui nous permet de vérifier que la demande vient bien de toi. La marche à suivre est détaillée sur <a href="https://legal.gradeonapp.com/delete_account.html" rel="noopener noreferrer">la page de suppression de compte</a>.</p>
 <p>Deux précisions honnêtes sur ce qui suit une suppression :</p>
 <ul>
